@@ -46,6 +46,16 @@ void a(array<string, 5 > & s)
 
 }
 
+void f(array<string, 5 >& s)
+{
+    s[0] += "  ### ";
+    s[1] += "  #   ";
+    s[2] += "  ### ";
+    s[3] += "  #   ";
+    s[4] += "  #   ";
+
+}
+
 int main()
 {
     array<string, 5> screen;
