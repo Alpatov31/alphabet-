@@ -145,15 +145,6 @@ void h(array<string, 5 >& s)
     s[4] += "  # # ";
 }
 
-void u(array < string, 5 > & s)
-{
-	s[0] += "  # #  "
-	s[1] += "  # #	"
-	s[2] += "  # #  "
-	s[3] += "  # # 	"
-	s[4] += "   #   "
-}
-
 
 int main()
 {
@@ -170,7 +161,6 @@ int main()
     n(screen);
     o(screen);
     p(screen);
-    u(screen);
     for (int i = 0; i < 5; i++)
         cout << screen[i] << endl;
     return 0;
