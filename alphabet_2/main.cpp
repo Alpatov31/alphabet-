@@ -9,6 +9,7 @@ void n(array<string, 5 >& s)
     s[2] += "  # #  ";
     s[3] += "  ###  ";
     s[4] += "  # #  ";
+}
 void o(array<string, 5 > & s)
 {
     s[0] += "    #     ";
@@ -73,6 +74,7 @@ void c(array<string, 5 > & s)
     s[2] += "  #     ";
     s[3] += "  #     ";
     s[4] += "   ##   ";
+
 }
 void b(array<string, 5 > & s)
 {
@@ -81,6 +83,7 @@ void b(array<string, 5 > & s)
     s[2] += "  ##   ";
     s[3] += "  # #  ";
     s[4] += "  ##   ";
+
 }
 void a(array<string, 5 > & s)
 {
