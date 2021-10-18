@@ -19,7 +19,7 @@ void d(array<string, 5 >& s)
     s[2] += "  # #  ";
     s[3] += "  # #  ";
     s[4] += "  ##   ";
-
+}
 void c(array<string, 5 > & s)
 {
     s[0] += "   ##   ";
@@ -27,7 +27,7 @@ void c(array<string, 5 > & s)
     s[2] += "  #     ";
     s[3] += "  #     ";
     s[4] += "   ##   ";
-
+}
 void b(array<string, 5 > & s)
 {
     s[0] += "  ##   ";
@@ -35,7 +35,7 @@ void b(array<string, 5 > & s)
     s[2] += "  ##   ";
     s[3] += "  # #  ";
     s[4] += "  ##   ";
-
+}
 void a(array<string, 5 > & s)
 {
     s[0] += "   #   ";
@@ -56,6 +56,16 @@ void f(array<string, 5 >& s)
 
 }
 
+void p(array<string, 5 >& s)
+{
+    s[0] += " ##  ";
+    s[1] += " # # ";
+    s[2] += " ##  ";
+    s[3] += " #   ";
+    s[4] += " #   ";
+
+}
+
 int main()
 {
     array<string, 5> screen;
@@ -64,6 +74,7 @@ int main()
     c(screen);
     d(screen);
     e(screen);
+    p(screen);
     for (int i = 0; i < 5; i++)
         cout << screen[i] << endl;
     return 0;
