@@ -163,6 +163,13 @@ void h(array<string, 5 >& s)
     s[4] += "  # # ";
 }
 
+void z(array<string, 5 >& s)
+{
+    s[0] += "  ### ";
+    s[1] += "    # ";
+    s[2] += "   #  ";
+    s[3] += "  #   ";
+    s[4] += "  ### ";
 void y(array<string, 5 >& s)
 {
     s[0] += "  # # ";
@@ -250,6 +257,7 @@ int main()
     w(screen);
     x(screen);
     y(screen);
+    z(screen);
     for (int i = 0; i < 5; i++)
         cout << screen[i] << endl;
     return 0;
