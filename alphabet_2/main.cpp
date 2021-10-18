@@ -178,6 +178,7 @@ int main()
     n(screen);
     o(screen);
     p(screen);
+    q(screen);
     for (int i = 0; i < 5; i++)
         cout << screen[i] << endl;
     return 0;
