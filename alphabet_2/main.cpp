@@ -2,6 +2,14 @@
 #include <array>
 
 using namespace std;
+void g(array<string, 5 > & s)
+{
+    s[0] += "    ##    ";
+    s[1] += "   #      ";
+    s[2] += "   # #    ";
+    s[3] += "   # #    ";
+    s[4] += "    ##    ";
+}
 void e(array<string, 5 > & s)
 {
     s[0] += "   ###   ";
@@ -97,6 +105,7 @@ int main()
     p(screen);
     j(screen);
     l(screen);
+    g(screen);
     for (int i = 0; i < 5; i++)
         cout << screen[i] << endl;
     return 0;
