@@ -2,6 +2,14 @@
 #include <array>
 
 using namespace std;
+void k(array<string, 5 > & s)
+{
+    s[0] += "   # #    ";
+    s[1] += "   # #    ";
+    s[2] += "   ##     ";
+    s[3] += "   # #    ";
+    s[4] += "   # #    ";
+}
 void i(array<string, 5 > & s)
 {
     s[0] += "    ###   ";
@@ -122,7 +130,8 @@ int main()
     g(screen);
     h(screen);
     i(screen);
-    j(screen);
+    j(screen);  
+    k(screen);
     l(screen);
     p(screen);
     for (int i = 0; i < 5; i++)
