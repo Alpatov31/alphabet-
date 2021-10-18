@@ -4,11 +4,14 @@
 using namespace std;
 void n(array<string, 5 >& s)
 {
-    s[0] += "  # #  ";
+    s[0] += "    #  ";
     s[1] += "  # #  ";
     s[2] += "  # #  ";
     s[3] += "  ###  ";
     s[4] += "  # #  ";
+    s[2] += "  ###  ";
+    s[3] += "  # #  ";
+    s[4] += "  #    ";
 }
 void o(array<string, 5 > & s)
 {
@@ -86,6 +89,7 @@ void c(array<string, 5 > & s)
     s[2] += "  #     ";
     s[3] += "  #     ";
     s[4] += "   ##   ";
+
 }
 void b(array<string, 5 > & s)
 {
@@ -94,6 +98,7 @@ void b(array<string, 5 > & s)
     s[2] += "  ##   ";
     s[3] += "  # #  ";
     s[4] += "  ##   ";
+
 }
 void a(array<string, 5 > & s)
 {
@@ -154,12 +159,61 @@ void h(array<string, 5 >& s)
     s[4] += "  # # ";
 }
 
+void q(array < string, 5 > & s)
+{
+	s[0] += "	  #	  "
+	s[1] += "  # #	"
+	s[2] += "  # #  "
+	s[3] += "   ##  "
+	s[4] += "    #  "
+}
 
-int main()
+void l1(array<string, 5 >& s)
 {
     array<string, 5> screen;
 
     v(screen);
+    a(screen);
+    b(screen);
+    c(screen);
+    d(screen);
+
+void s(array < string, 5 > & s)
+{
+	s[0] += "   ##  ";
+	s[1] += "  # 	  ";
+	s[2] += "   #  	";
+	s[3] += "    # 	";
+	s[4] += "  ##   ";
+}
+
+void r(array < string, 5 > & s)
+{
+	s[0] += "  ##	"
+	s[1] += "  # #	"
+	s[2] += "  ##  	"
+	s[3] += "  # # 	"
+	s[4] += "  # #  "
+}
+
+int main()
+{
+    array<string, 5> screen;
+    //l1(screen)
+    f(screen);
+    g(screen);
+    h(screen);
+    i(screen);
+    j(screen);
+    k(screen);
+    l(screen);
+    m(screen);
+    n(screen);
+    o(screen);
+    p(screen);
+    q(screen);
+    r(screen);
+    s(screen);
     for (int i = 0; i < 5; i++)
         cout << screen[i] << endl;
     return 0;
