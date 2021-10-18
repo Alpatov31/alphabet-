@@ -6,6 +6,9 @@ void n(array<string, 5 >& s)
 {
     s[0] += "    #  ";
     s[1] += "  # #  ";
+    s[2] += "  # #  ";
+    s[3] += "  ###  ";
+    s[4] += "  # #  ";
     s[2] += "  ###  ";
     s[3] += "  # #  ";
     s[4] += "  #    ";
@@ -34,6 +37,17 @@ void k(array<string, 5 > & s)
     s[3] += "   # #    ";
     s[4] += "   # #    ";
 }
+
+void v(array<string, 5 > & s)
+{
+    s[0] += "   # #   ";
+    s[1] += "   # #   ";
+    s[2] += "   # #   ";
+    s[3] += "   # #   ";
+    s[4] += "    #    ";
+
+}
+
 void i(array<string, 5 > & s)
 {
     s[0] += "    ###   ";
@@ -156,6 +170,9 @@ void q(array < string, 5 > & s)
 
 void l1(array<string, 5 >& s)
 {
+    array<string, 5> screen;
+
+    v(screen);
     a(screen);
     b(screen);
     c(screen);
@@ -164,7 +181,7 @@ void l1(array<string, 5 >& s)
 void s(array < string, 5 > & s)
 {
 	s[0] += "   ##  ";
-	s[1] += "  # 	";
+	s[1] += "  # 	  ";
 	s[2] += "   #  	";
 	s[3] += "    # 	";
 	s[4] += "  ##   ";
