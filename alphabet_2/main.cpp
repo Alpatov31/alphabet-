@@ -147,7 +147,7 @@ void h(array<string, 5 >& s)
 
 void q(array < string, 5 > & s)
 {
-	s[0] += "	#	"
+	s[0] += "	  #	  "
 	s[1] += "  # #	"
 	s[2] += "  # #  "
 	s[3] += "   ##  "
@@ -160,6 +160,15 @@ void l1(array<string, 5 >& s)
     b(screen);
     c(screen);
     d(screen);
+
+void s(array < string, 5 > & s)
+{
+	s[0] += "   ##  ";
+	s[1] += "  # 	";
+	s[2] += "   #  	";
+	s[3] += "    # 	";
+	s[4] += "  ##   ";
+}
 
 void r(array < string, 5 > & s)
 {
@@ -187,6 +196,7 @@ int main()
     p(screen);
     q(screen);
     r(screen);
+    s(screen);
     for (int i = 0; i < 5; i++)
         cout << screen[i] << endl;
     return 0;
