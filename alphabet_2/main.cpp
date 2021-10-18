@@ -9,8 +9,10 @@ void n(array<string, 5 >& s)
     s[2] += "  # #  ";
     s[3] += "  ###  ";
     s[4] += "  # #  ";
-void o(array<string, 5 > & s)
+}
+void o(array<string, 5 >& s)
 {
+
     s[0] += "    #     ";
     s[1] += "   # #    ";
     s[2] += "   # #    ";
@@ -40,6 +42,7 @@ void i(array<string, 5 > & s)
     s[2] += "     #    ";
     s[3] += "     #    ";
     s[4] += "    ###   ";
+}
 void g(array<string, 5 > & s)
 {
     s[0] += "    ##    ";
@@ -141,6 +144,16 @@ void h(array<string, 5 >& s)
     s[4] += "  # # ";
 }
 
+void w(array<string, 5 > & s)
+{
+    s[0] += "   # #    ";
+    s[1] += "   # #    ";
+    s[2] += "   ###    ";
+    s[3] += "   ###    ";
+    s[4] += "   # #    ";
+
+}
+
 
 int main()
 {
@@ -156,13 +169,14 @@ int main()
     g(screen);
     h(screen);
     i(screen);
-    j(screen);  
+    j(screen);
     k(screen);
     l(screen);
     m(screen);
     n(screen);
     o(screen);
     p(screen);
+    w(screen);
     for (int i = 0; i < 5; i++)
         cout << screen[i] << endl;
     return 0;
