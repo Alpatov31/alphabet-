@@ -2,6 +2,14 @@
 #include <array>
 
 using namespace std;
+void o(array<string, 5 > & s)
+{
+    s[0] += "    #     ";
+    s[1] += "   # #    ";
+    s[2] += "   # #    ";
+    s[3] += "   # #    ";
+    s[4] += "    #     ";
+}
 void m(array<string, 5 > & s)
 {
     s[0] += "   # #    ";
@@ -130,6 +138,7 @@ void h(array<string, 5 >& s)
 int main()
 {
     array<string, 5> screen;
+    o(screen);
     a(screen);
     b(screen);
     c(screen);
@@ -143,6 +152,7 @@ int main()
     k(screen);
     l(screen);
     m(screen);
+    o(screen);
     p(screen);
     for (int i = 0; i < 5; i++)
         cout << screen[i] << endl;
