@@ -195,7 +195,7 @@ void t(array < string, 5 > & s)
 
 void q(array < string, 5 > & s)
 {
-	s[0] += "	  #	  "
+	s[0] += "   #	  "
 	s[1] += "  # #	"
 	s[2] += "  # #  "
 	s[3] += "   ##  "
