@@ -4,11 +4,11 @@
 using namespace std;
 void n(array<string, 5 >& s)
 {
-    s[0] += "  # #  ";
+    s[0] += "    #  ";
     s[1] += "  # #  ";
-    s[2] += "  # #  ";
-    s[3] += "  ###  ";
-    s[4] += "  # #  ";
+    s[2] += "  ###  ";
+    s[3] += "  # #  ";
+    s[4] += "  #    ";
 }
 void o(array<string, 5 > & s)
 {
@@ -41,6 +41,7 @@ void i(array<string, 5 > & s)
     s[2] += "     #    ";
     s[3] += "     #    ";
     s[4] += "    ###   ";
+}
 void g(array<string, 5 > & s)
 {
     s[0] += "    ##    ";
@@ -148,18 +149,12 @@ void h(array<string, 5 >& s)
 int main()
 {
     array<string, 5> screen;
-    n(screen);
-    o(screen);
-    a(screen);
-    b(screen);
-    c(screen);
-    d(screen);
-    e(screen);
+
     f(screen);
     g(screen);
     h(screen);
     i(screen);
-    j(screen);  
+    j(screen);
     k(screen);
     l(screen);
     m(screen);
