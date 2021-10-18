@@ -6,9 +6,9 @@ void n(array<string, 5 >& s)
 {
     s[0] += "    #  ";
     s[1] += "  # #  ";
-    s[2] += "  ### ";
-    s[3] += "  # # ";
-    s[4] += "  #    "; 
+    s[2] += "  ###  ";
+    s[3] += "  # #  ";
+    s[4] += "  #    ";
 }
 
 void o(array<string, 5 > & s)
@@ -195,6 +195,7 @@ void t(array < string, 5 > & s)
 
 void q(array < string, 5 > & s)
 {
+
 	s[0] += "   #	  "
 	s[1] += "  # #	"
 	s[2] += "  # #  "
